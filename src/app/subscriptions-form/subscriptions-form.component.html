@@ -1,0 +1,55 @@
+<div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="d-flex flex-row mb-2">
+          <div id="circulo">
+            <p>BTG</p>
+          </div>
+          <span class="fw-bold fs-3" >BTG Pactual</span>
+        </div>
+      </div>
+      <div class="col">
+      </div>
+      <div class="col">
+        <div class="fw-bold fs-3">
+          {{homeInfo[0].name}}
+        </div>
+        <div class="fs-5 text-body-secondary">
+          Balance: COP $ {{homeInfo[0].balance}}
+        </div>
+      </div>
+    </div>
+  
+    <div class="row align-items-center">
+      <nav class="navbar bg-body-tertiary">
+        <form class="container-fluid justify-content-start">
+          <button class="btn btn-sm btn-outline-secondary" type="button" routerLink="/">Home</button>
+          <button class="btn btn-sm btn-outline-secondary" type="button" routerLink="/historicalLogService">Transaction History</button>
+          <button class="btn btn-sm btn-outline-secondary" type="button" routerLink="/subscriptions">
+            Manage Subscriptions</button>
+        </form>
+      </nav>
+    </div>
+  </div>
+  <div class="mx-auto p-2" style="width: 200px;"></div>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Voluntario de Pensión (FPV) de BTG Pactual</h5>
+          <p class="card-text">
+            El Voluntario de Pensión (FPV) de BTG Pactual es un plan de ahorro destinado a complementar las pensiones obligatorias, permitiendo a los inversionistas realizar aportes voluntarios con beneficios fiscales y rendimientos ajustados a sus necesidades. Ofrecido por BTG Pactual, este fondo busca maximizar el ahorro a largo plazo para la jubilación de manera flexible y eficiente.</p>
+          <a href="/subscriptions-FPV" class="btn btn-primary">purchase product</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Fondos de Inversión Colectiva (FIC’s)</h5>
+          <p class="card-text">Los Fondos de Inversión Colectiva (FIC’s) son vehículos de inversión que agrupan el capital de varios inversionistas para invertir en diversos activos, como acciones, bonos o bienes raíces. Administrados por entidades especializadas, permiten a los participantes diversificar su portafolio y acceder a inversiones profesionales, con el objetivo de maximizar rendimientos y minimizar riesgos.</p>
+          <a href="subscriptions-FIC" class="btn btn-primary">purchase product</a>
+        </div>
+      </div>
+    </div>
+  </div>
